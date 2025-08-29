@@ -1,0 +1,45 @@
+header{
+    padding-block: 1rem;
+    align-self: center;
+    & nav{
+        align-items: center;
+        
+        & ul{
+            display: flex;
+            margin-left: auto;
+            gap: .5rem;
+            & li img{
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+            & li:last-child img{
+                height: 2.5rem;
+                width: 2.5rem;
+            }
+        
+        }
+        
+
+    }
+
+
+}
+
+@media(width >= 80rem){
+    header{
+        padding-block: 1.25rem;
+        align-items: center;
+        & nav {
+            align-items: center;
+            & ul{
+                gap: 1rem;
+                
+            }
+        }
+
+
+    }
+    
+
+    
+}

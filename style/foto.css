@@ -1,0 +1,13 @@
+#photos{
+    .container{
+        --px-lg:1rem;
+        --max-width: 360px;
+        width: min(var(--max-width), 100% - var(--px-lg) * 2);
+        margin-inline: auto;
+    }
+    & #photos-galery{ 
+        max-width: 22.5rem;
+    }
+
+
+}

@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.container{
+    --max-width: 360px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+}
+.itens-center{
+    align-items: center;
+}
+.desktop-only{
+    display: none;
+}
+.gap-0\.5{
+    gap: .5rem;
+}
+.gap-1{
+    gap: 1rem;
+}
+.gap-2{
+    gap: 2rem;
+}
+
+@media (width >= 80em){
+    .container{
+       --max-width:80rem; 
+    }
+    .desktop-only{
+        display: initial;
+    }
+
+
+
+
+
+}
