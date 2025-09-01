@@ -25,6 +25,7 @@
 }
 html{
     font-family: var(--ff-poppins);
+    font-size: var(--fs-md);
     overflow-x: hidden;
     }
 body{

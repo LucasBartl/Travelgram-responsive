@@ -39,6 +39,8 @@
 @media(width >= 80em){
     #secondary{
        & .inicial{
+        align-items: center;
+
         display: flex;
             & > div{
                 display: flex;
